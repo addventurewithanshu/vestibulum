@@ -1,0 +1,112 @@
+body{
+    overflow-x: hidden;
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0.1);   
+}
+.menu_item{
+    margin-left: 50%;    
+}
+.menu_item li a:hover{    
+    border-bottom: 6px dotted red;
+    color: red !important;
+}
+.slide{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.slider_text{
+position:absolute;
+top: 30%;
+}
+.slider_text_heading{
+    font-size: 13rem;
+    color: white;
+}
+.recomantion_1{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+.recomantion_2{
+  position: absolute;
+  top: 160%;  
+  right: 0%;
+}
+.img_sec{
+  position: absolute;
+  top: 235%;  
+  left: 0%;
+}
+.breakfast_lunch_dinner{
+position: absolute;
+  top: 270%;  
+  left: 15%;
+  padding-left: 10rem;
+  padding-right: 0rem;
+  
+}
+.first_circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 5px;
+    border:1px solid gray;
+    
+}
+.sec_circle{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+}
+
+.p_food{
+    margin-left: -3rem;
+}
+.map_all{
+   position: absolute;
+   top: 360%;
+   
+}
+.footer_1{
+    position: absolute;
+    top: 427%;
+    left: 0%;
+    width: 1600px !important;
+}
+.menu_2 a li{
+ list-style-type: none;
+ display: inline;
+ padding-left: 2rem;
+}
+.lichi{
+    position: absolute;
+    left: -5%;
+    top: 300%;
+    transition: transform .8s;
+    animation-name: lichi_1;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.lichi:hover{
+    transform: scale(1.2);
+    left: 2%;
+}
+.order_btn{
+    transition: transform .8s;
+}
+.order_btn:hover{
+    border-radius: 30%;
+    transform: scale(1.2);
+}
+@keyframes lichi_1{
+    from{ 
+        transform: rotate(0deg);
+    }
+    to{transform: rotate(360deg);}
+}
